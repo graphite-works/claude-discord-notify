@@ -31,7 +31,7 @@ all state is the single `config.json` on disk.
 ```mermaid
 graph TB
     subgraph dist["Development & Distribution"]
-        REPO["GitHub repo<br/>blakeadaniel/claude-discord-notify"]
+        REPO["GitHub repo<br/>graphite-works/claude-discord-notify"]
         CI["GitHub Actions CI<br/>.github/workflows/ci.yml<br/>node 18.x / 20.x / 22.x"]
         NPM["npm registry<br/>claude-discord-notify"]
     end

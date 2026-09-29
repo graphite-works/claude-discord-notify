@@ -1,6 +1,6 @@
 {
   "name": "claude-discord-notify",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Discord notifications for Claude Code. A zero-dependency skill and CLI that sends messages, file attachments, and rich embeds to a Discord webhook.",
   "bin": {
     "claude-discord-notify": "bin/cli.js"
@@ -45,10 +45,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blakeadaniel/claude-discord-notify.git"
+    "url": "git+https://github.com/graphite-works/claude-discord-notify.git"
   },
   "bugs": {
-    "url": "https://github.com/blakeadaniel/claude-discord-notify/issues"
+    "url": "https://github.com/graphite-works/claude-discord-notify/issues"
   },
-  "homepage": "https://github.com/blakeadaniel/claude-discord-notify#readme"
+  "homepage": "https://github.com/graphite-works/claude-discord-notify#readme"
 }

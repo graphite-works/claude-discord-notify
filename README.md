@@ -2,9 +2,9 @@
 
 > Send **Discord notifications** from **[Claude Code](https://claude.com/claude-code)** — build results, summaries, screenshots, and "I'm done" pings, posted to a Discord webhook you own.
 
-![Claude Code posting to Discord: test results to the default channel, a screenshot to #work, a silent deploy summary to #alerts, then piped output and a rich embed sent straight from the shell](https://raw.githubusercontent.com/blakeadaniel/claude-discord-notify/main/docs/demo.gif)
+![Claude Code posting to Discord: test results to the default channel, a screenshot to #work, a silent deploy summary to #alerts, then piped output and a rich embed sent straight from the shell](https://raw.githubusercontent.com/graphite-works/claude-discord-notify/main/docs/demo.gif)
 
-[![CI](https://github.com/blakeadaniel/claude-discord-notify/actions/workflows/ci.yml/badge.svg)](https://github.com/blakeadaniel/claude-discord-notify/actions/workflows/ci.yml)
+[![CI](https://github.com/graphite-works/claude-discord-notify/actions/workflows/ci.yml/badge.svg)](https://github.com/graphite-works/claude-discord-notify/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/claude-discord-notify.svg)](https://www.npmjs.com/package/claude-discord-notify)
 [![npm downloads](https://img.shields.io/npm/dm/claude-discord-notify.svg)](https://www.npmjs.com/package/claude-discord-notify)
@@ -94,7 +94,7 @@ It looks like `https://discord.com/api/webhooks/<id>/<token>`. The installer val
 ### From source
 
 ```bash
-git clone https://github.com/blakeadaniel/claude-discord-notify.git
+git clone https://github.com/graphite-works/claude-discord-notify.git
 cd claude-discord-notify
 node bin/cli.js
 ```
@@ -509,7 +509,7 @@ Every outgoing payload sets `allowed_mentions: { parse: [] }` unconditionally �
 ### Setup
 
 ```bash
-git clone https://github.com/blakeadaniel/claude-discord-notify.git
+git clone https://github.com/graphite-works/claude-discord-notify.git
 cd claude-discord-notify
 npm test      # no install step — the package has no dependencies
 ```
@@ -600,7 +600,7 @@ If the test message during install fails, the webhook URL is the first thing to 
 
 ## 🤝 Contributing
 
-Issues and pull requests are welcome at [github.com/blakeadaniel/claude-discord-notify](https://github.com/blakeadaniel/claude-discord-notify).
+Issues and pull requests are welcome at [github.com/graphite-works/claude-discord-notify](https://github.com/graphite-works/claude-discord-notify).
 
 1. Fork the repository and create a branch: `git checkout -b feature/your-feature`
 2. Make your changes, keeping to the [conventions](#conventions) above
@@ -621,7 +621,7 @@ CI (Node 18/20/22) must pass before a PR can merge.
 
 ## 🆘 Support
 
-- **Bugs and feature requests** — [GitHub Issues](https://github.com/blakeadaniel/claude-discord-notify/issues)
+- **Bugs and feature requests** — [GitHub Issues](https://github.com/graphite-works/claude-discord-notify/issues)
 - **Skill behavior reference** — [`skill/SKILL.md`](skill/SKILL.md) documents exactly what Claude is told about when and how to use each flag
 - **Discord webhook docs** — [Discord Developer Portal: Webhook Resource](https://discord.com/developers/docs/resources/webhook)
 - **Claude Code docs** — [claude.com/claude-code](https://claude.com/claude-code)
@@ -629,7 +629,7 @@ CI (Node 18/20/22) must pass before a PR can merge.
 
 ## 🔗 Related Tools
 
-- [claude-code-statusline-progress](https://github.com/blakeadaniel/claude-code-statusline-progress) — a shell status line for Claude Code, with a Claude-powered setup prompt.
+- [claude-code-statusline-progress](https://github.com/graphite-works/claude-code-statusline-progress) — a shell status line for Claude Code, with a Claude-powered setup prompt.
 
 ---
 
